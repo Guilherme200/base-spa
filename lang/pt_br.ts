@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   common: {
     users: 'Usuários',
     dashboard: 'Dashboard',

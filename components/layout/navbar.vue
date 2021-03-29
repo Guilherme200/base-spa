@@ -15,7 +15,7 @@
               <a
                 href="#"
                 class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
-              >Dashboard</a>
+              >{{ $t('common.users') }}</a>
               <a
                 href="#"
                 class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
@@ -206,9 +206,10 @@ export default Vue.extend({
   name: 'navbar',
   data() {
     return {
-      isOpen: false
+      isOpen: <Boolean>false
     }
   },
+
   methods: {
     toggle(): any {
       return this.isOpen = !this.isOpen
