@@ -7,7 +7,9 @@
 </template>
 
 <script lang="ts">
-export default {
-  name: 'header',
-}
+import Vue from 'vue';
+
+export default Vue.extend({
+  name: 'app-header',
+})
 </script>

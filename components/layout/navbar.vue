@@ -200,7 +200,9 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue';
+
+export default Vue.extend({
   name: 'navbar',
   data() {
     return {
@@ -208,9 +210,9 @@ export default {
     }
   },
   methods: {
-    toggle() {
-      this.isOpen = !this.isOpen
+    toggle(): any {
+      return this.isOpen = !this.isOpen
     }
   }
-}
+})
 </script>
