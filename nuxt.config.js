@@ -47,7 +47,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    ['nuxt-i18n', {}],
+    'nuxt-i18n',
+    'nuxt-tslint'
   ],
 
   i18n: I18N,
