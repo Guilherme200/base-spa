@@ -187,8 +187,8 @@ export default Vue.extend({
   },
 
   methods: {
-    toggle(): any {
-      return this.isOpen = !this.isOpen
+    toggle(): void {
+      this.isOpen = !this.isOpen
     }
   }
 })
