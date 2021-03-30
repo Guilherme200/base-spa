@@ -15,23 +15,11 @@
               <a
                 href="#"
                 class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
+              >{{ $t('common.dashboard') }}</a>
+              <a
+                href="#"
+                class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
               >{{ $t('common.users') }}</a>
-              <a
-                href="#"
-                class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >Team</a>
-              <a
-                href="#"
-                class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >Projects</a>
-              <a
-                href="#"
-                class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >Calendar</a>
-              <a
-                href="#"
-                class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-              >Reports</a>
             </div>
           </div>
         </div>
@@ -90,17 +78,17 @@
                       href="#"
                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
-                    >Your Profile</a>
+                    >{{ $t('common.profile') }}</a>
                     <a
                       href="#"
                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
-                    >Settings</a>
+                    >{{ $t('common.config') }}</a>
                     <a
                       href="#"
                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
-                    >Sign out</a>
+                    >{{ $t('common.exit') }}</a>
                   </div>
                 </div>
               </transition>
@@ -148,23 +136,11 @@
         <a
           href="#"
           class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
-        >Dashboard</a>
+        >{{ $t('common.dashboard') }}</a>
         <a
           href="#"
           class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-        >Team</a>
-        <a
-          href="#"
-          class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-        >Projects</a>
-        <a
-          href="#"
-          class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-        >Calendar</a>
-        <a
-          href="#"
-          class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-        >Reports</a>
+        >{{ $t('common.users') }}</a>
       </div>
       <div class="pt-4 pb-3 border-t border-gray-700">
         <div class="flex items-center px-5">
@@ -184,15 +160,15 @@
           <a
             href="#"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-          >Your Profile</a>
+          >{{ $t('common.profile') }}</a>
           <a
             href="#"
             class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-          >Settings</a>
+          >{{ $t('common.config') }}</a>
           <a
             href="#"
             class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-          >Sign out</a>
+          >{{ $t('common.exit') }}</a>
         </div>
       </div>
     </div>
